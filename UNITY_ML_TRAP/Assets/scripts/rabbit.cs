@@ -24,12 +24,12 @@ public class rabbit : Agent
         rigrabbit.angularVelocity = Vector3.zero;
 
         //隨機兔子初始位置
-        Vector3 posrabbit = new Vector3(Random.Range(-2f, 2f), 1f, Random.Range(-2f, 2f));
+        Vector3 posrabbit = new Vector3(Random.Range(-1f, 1f), 0.1f, Random.Range(-1f, 1f));
         transform.position = posrabbit;
         //隨機蘿蔔和農夫初始位置
-        Vector3 poscarrot = new Vector3(Random.Range(-2f, 2f), 1.1f, Random.Range(-2f, 2f));
+        Vector3 poscarrot = new Vector3(Random.Range(-3f, 3f), 0.1f, Random.Range(-3f, 3f));
         rigcarrot.position = poscarrot;
-        Vector3 posfarmer = new Vector3(Random.Range(-2f, 2f), 0.5f, Random.Range(-2f, 2f));
+        Vector3 posfarmer = new Vector3(Random.Range(-4f, 4f), 0.5f, Random.Range(-4f, 4f));
         rigfarmer.position = posfarmer;
 
         carrot.complete = false;
@@ -67,7 +67,7 @@ public class rabbit : Agent
 
     }
 
-
+    
     //public override void Heuristic(float[] actionsOut)
     //{
         //提供開發者控制的方式
