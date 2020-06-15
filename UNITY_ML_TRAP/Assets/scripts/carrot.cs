@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-
-
 public class carrot : MonoBehaviour
 {
     public static bool complete;

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/\u96A8\u6A5F\u9677\u9631.unity"
+- path: "C:/Users/user/Desktop/Midtermtest/Colorgame/Assets/\u984F\u8272.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
