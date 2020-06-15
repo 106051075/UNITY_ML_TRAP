@@ -19,15 +19,22 @@ public class rabbit : Agent
 
     public override void OnEpisodeBegin()
     {
-        //重設兔子的加速度與角速度
+        //重設兔子、蘿蔔和農夫的加速度與角速度
         rigrabbit.velocity = Vector3.zero;
         rigrabbit.angularVelocity = Vector3.zero;
+
+        rigcarrot.velocity = Vector3.zero;
+        rigcarrot.angularVelocity = Vector3.zero;
+
+        rigfarmer.velocity = Vector3.zero;
+        rigfarmer.angularVelocity = Vector3.zero;
+
 
         //隨機兔子初始位置
         Vector3 posrabbit = new Vector3(Random.Range(-1f, 1f), 0.1f, Random.Range(-1f, 1f));
         transform.position = posrabbit;
         //隨機蘿蔔和農夫初始位置
-        Vector3 poscarrot = new Vector3(Random.Range(-3f, 3f), 0.1f, Random.Range(-3f, 3f));
+        Vector3 poscarrot = new Vector3(Random.Range(-2f, 2f), 0.1f, Random.Range(-2f, 2f));
         rigcarrot.position = poscarrot;
         Vector3 posfarmer = new Vector3(Random.Range(-4f, 4f), 0.5f, Random.Range(-4f, 4f));
         rigfarmer.position = posfarmer;

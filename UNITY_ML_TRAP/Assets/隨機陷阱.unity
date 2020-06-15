@@ -207,7 +207,7 @@ MonoBehaviour:
     vectorActionSize: 02000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: 78f96247a2b91f94d975ca8334552343, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: rabbitbrain
@@ -357,7 +357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 0962bdca27eaca34aaa15f7fdf608faf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.79
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 0962bdca27eaca34aaa15f7fdf608faf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -520,7 +520,7 @@ PrefabInstance:
     - target: {fileID: 2750536015425250604, guid: d2a6cffd27c3e44449a585a61fc0359d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8861799
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2750536015425250604, guid: d2a6cffd27c3e44449a585a61fc0359d,
         type: 3}
@@ -741,7 +741,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 74a2298c1e0a64d48b5809e78c44597b, type: 2}
+  - {fileID: 2100000, guid: e406e2e9ed9f62944923859956d1d8f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
